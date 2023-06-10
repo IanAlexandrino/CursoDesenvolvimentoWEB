@@ -1,0 +1,46 @@
+body {
+  background-image: url(Imagens/fundo.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#conteudo {
+  background-color: #bbbbae;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  
+}
+#painel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+#sobre {
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+#titulo-sobre {
+  color: #838379;
+  
+}
+#direitos {
+  font-weight: 900;
+}
+.botao-principal {
+  text-decoration: none;
+  color: #3b3b6e;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+}
+.foto{
+    background-color: #bbbbae;
+    padding: 10px;
+    width: 640px;
+    
+}
