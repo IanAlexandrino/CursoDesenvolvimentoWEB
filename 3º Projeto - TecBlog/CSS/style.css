@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #e6e6e6;
+}
+#cabecalho {
+  background-color: lightcoral;
+  padding: 15px;
+  text-align: center;
+}
+#logo,
+#menu {
+  padding: 10px;
+}
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+.branco {
+  color: white;
+}
+a {
+  text-decoration: none;
+  padding: 8px 12px;
+}
+a:link,
+a:visited {
+  color: white;
+}
+a:hover {
+  background-color: white;
+  color: lightcoral;
+}
+#conteudo {
+  width: 920px;
+  margin: 0 auto;
+}
+#postagens,
+#lateral {
+  background-color: white;
+}
+#postagens {
+  float: left;
+  width: 660px;
+}
+#lateral {
+  float: right;
+  width: 240px;
+}
+#rodape {
+  background-color: #ccc;
+  clear: both;
+  text-align: center;
+  padding: 15px;
+}
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+}
